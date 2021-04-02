@@ -16,7 +16,7 @@ class Registro:
         print(linha)
 
 
-    #Leitura da descrição - retorna a string
+    #Leitura da descrição
     def descricao_lanc(self):
         valida = False
         while not valida:
@@ -28,7 +28,7 @@ class Registro:
                 self.descricao = descricao
 
 
-    #Leitura do valor - retorna um float 
+    #Leitura do valor
     def valor_lanc(self):
         valida = False
         while not valida:
