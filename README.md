@@ -1,9 +1,11 @@
 # controle-financeiro
-Programa em python para realizar lançamento de despesas e receitas.
-O arquivo 'Controle Financeiro' realiza a importação do arquivo 'funcoes_controle_financeiro' e executa o programa.
-O arquivo 'funcoes_controle_financeiro' contém todas as funções desenvolvidas para o programa.
 
 No programa é possível realizar o lançamento de receitas e despesas e verificar qual o percentual de renda comprometido. Assim como também mostrar o saldo final.
 Também é dada uma classificação para sua saúde financeira.
+Para a melhor apresentação das informações das tabelas, utilizei a lib Pandas.
 
-Levou-se em consideração a tratativa de entrada de dados para evitar lançamentos incorretos.
+- O arquivo 'registro.py' contém a classe de mesmo nome criada para organizar melhor o código. 
+- O arquivo 'execução.py' contém uma função que classifica as despesas e receitas chamada 'saldo'. Neste mesmo arquivo, também é executado o programa.
+
+
+Realizei tratativas de entrada de dados para evitar lançamentos incorretos ou a entrada de nulos.
